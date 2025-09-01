@@ -1,0 +1,39 @@
+h2, h3{
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: 'Raleway';
+}
+p {
+  color: rgb(194, 7, 7);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+table {
+    border-collapse: collapse; /* Une las líneas para que no se vean dobles */
+    width: 100%;
+    text-align: center;
+  }
+  th, td {
+    border: 1px solid black; /* Solo una línea negra */
+    padding: 6px;
+    font-family: 'Raleway';
+  }
+  th {
+    background-color: #f9f9f9;
+  }
+
+  .nom, .obs {
+    text-align: center;
+    width: 200px;
+  }
+  .asist, .evaluacion, .uni, .compart, .mat, .num {
+    width: 10px;
+  }
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 4px;
+  }
+
+  
